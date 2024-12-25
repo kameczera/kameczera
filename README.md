@@ -1,4 +1,4 @@
-## Olá! Eu sou o Leonardo Kamei 🖐️
+## Hello! I'm Leonardo Kamei 🖐️
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leokamei/)
 
@@ -13,7 +13,7 @@
  
 </div>
 
-## Tecnologias que eu uso no meu dia
+## Technologies I Use Daily
 
 <div style="display: inline_block">
   <img align="center" alt="c" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
@@ -25,16 +25,16 @@
   <img align="center" alt="js" src="https://img.shields.io/badge/JavaScript-ffcd00?style=for-the-badge&logo=javascript&logoColor=white" />
 </div><br/>
 
-## Sobre mim
+## About Me
 
-- Estudante de Ciência da Computação na PUC-MG e Engenharia Elétrica no CEFET-MG.
-- Experiência em pesquisa na área de análise de imagens no IMScience Lab.
-- Alguns dos projetos presentes no meu GitHub:
+- Computer Science student at PUC-MG and Electrical Engineering student at CEFET-MG.
+- Research experience in image analysis at the IMScience Lab.
+- Some of the projects available on my GitHub:
 
-## Projetos
+## Projects
 
-- **Ararinha:** Projeto desenvolvido no Hackatruck Makerspace com o objetivo de ajudar crianças com transtorno do espectro autista a se comunicarem.
-- **Interpretador em Rust:** Junto ao livro *Crafting an Interpreter*, criei um interpretador em Rust, implementando uma linguagem simples de programação.
-- **NAFLD (Non-Alcoholic Fatty Liver Disease):** Projeto desenvolvido na disciplina de Processamento e Análise de Imagens, com foco em identificar gordura no fígado através de uma aplicação gráfica que utiliza IA (XGBoost e Inception).
-- **Greenbox AI:** Inteligência artificial desenvolvida do zero em Python, utilizando PyCUDA para escrever e executar códigos CUDA de maneira eficiente.
-- **Simulador PUC:** Simulador de multithreading (SMT, IMT e BMT) com arquiteturas escalar e superescalar, desenvolvido em Java, com interface gráfica para visualização e análise.
+- **Ararinha:** A project developed at Hackatruck Makerspace aimed at helping children with Autism Spectrum Disorder communicate.
+- **Interpreter in Rust:** Following the book *Crafting an Interpreter*, I created an interpreter in Rust, implementing a simple programming language.
+- **NAFLD (Non-Alcoholic Fatty Liver Disease):** A project developed in the Image Processing and Analysis discipline, focusing on identifying liver fat through a graphical application using AI (XGBoost and Inception).
+- **Greenbox AI:** Artificial intelligence developed from scratch in Python, using PyCUDA to write and execute CUDA code efficiently.
+- **PUC Simulator:** A multithreading simulator (SMT, IMT, and BMT) with scalar and superscalar architectures, developed in Java with a graphical interface for visualization and analysis.
