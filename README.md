@@ -1,17 +1,13 @@
-## Hello! I'm Leonardo Kamei 🖐️
+# Leonardo Kamei
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leokamei/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leokamei/)
 
-<div align="center" style="display: flex; justify-content: space-between;">
+## About Me
 
-  <a href="https://github.com/kameczera">
-    <img height="190em" src="https://github-readme-stats.vercel.app/api?username=kameczera&show_icons=true&theme=dracula&count_private=true"/>
-  </a>
-  <a href="https://github.com/kameczera">
-    <img height="190em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kameczera&layout=compact&langs_count=12&theme=omni"/>
-  </a>
- 
-</div>
+- Computer Science student at PUC-MG and Electrical Engineering student at CEFET-MG.
+- Research experience in image analysis at the IMScience Lab.
+- Interested in compilers, artificial intelligence, high-performance computing, computer architecture, and programming languages.
+- Currently working on compiler-related projects, including operator fusion benchmarks and a compiler written in Go.
 
 ## Technologies I Use Daily
 
@@ -24,19 +20,42 @@
   <img align="center" alt="haskell" src="https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white" />
   <img align="center" alt="js" src="https://img.shields.io/badge/JavaScript-ffcd00?style=for-the-badge&logo=javascript&logoColor=white" />
   <img align="center" alt="cuda" src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
-</div><br/>
+  <img align="center" alt="go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+</div>
 
-
-## About Me
-
-- Computer Science student at PUC-MG and Electrical Engineering student at CEFET-MG.
-- Research experience in image analysis at the IMScience Lab.
-- Some of the projects available on my GitHub:
+<br/>
 
 ## Projects
 
-- **Ararinha:** A project developed at Hackatruck Makerspace aimed at helping children with Autism Spectrum Disorder communicate.
-- **Interpreter in Rust:** Following the book *Crafting an Interpreter*, I created an interpreter in Rust, implementing a simple programming language.
-- **NAFLD (Non-Alcoholic Fatty Liver Disease):** A project developed in the Image Processing and Analysis discipline, focusing on identifying liver fat through a graphical application using AI (XGBoost and Inception).
-- **Greenbox AI:** Artificial intelligence developed from scratch in Python, using PyCUDA to write and execute CUDA code efficiently.
-- **PUC Simulator:** A multithreading simulator (SMT, IMT, and BMT) with scalar and superscalar architectures, developed in Java with a graphical interface for visualization and analysis.
+### Ararinha
+
+A project developed at Hackatruck Makerspace aimed at helping children with Autism Spectrum Disorder communicate.
+
+### Interpreter in Rust
+
+An interpreter written in Rust, based on the book *Crafting Interpreters*.  
+The project implements a simple programming language and explores concepts such as lexical analysis, parsing, interpretation, and language design.
+
+### NAFLD — Non-Alcoholic Fatty Liver Disease
+
+A project developed in the Image Processing and Analysis discipline, focused on identifying liver fat through a graphical application using AI techniques, including XGBoost and Inception.
+
+### Greenbox AI
+
+An artificial intelligence project developed from scratch in Python, using PyCUDA to write and execute CUDA code efficiently.
+
+### PUC Simulator
+
+A multithreading simulator developed in Java, supporting SMT, IMT, and BMT models with scalar and superscalar architectures.  
+The project includes a graphical interface for visualization and analysis.
+
+### compilers-benchmark
+
+My undergraduate thesis project, focused on operator fusion in modern machine learning compilers.
+
+Operator fusion trades compilation time for execution efficiency, but this cost is often hidden. In this project, I study how modern compilers such as PyTorch 2/TorchInductor and XLA apply fusion passes, especially in common kernels like BatchNorm + ReLU and BatchNorm → Conv.
+
+The project formalizes the trade-off between compilation time and execution time using the model:
+
+```txt
+T(n) = T_C + n T_X
