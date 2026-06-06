@@ -49,23 +49,12 @@ The project includes a graphical interface for visualization and analysis.
 
 My undergraduate thesis project, focused on **operator fusion** in modern machine learning compilers.
 
-Operator fusion trades compilation time for execution efficiency, but this cost is often hidden. In this project, I study how modern compilers such as **PyTorch 2 / TorchInductor** and **XLA** apply fusion passes, especially in common kernels such as **BatchNorm + ReLU** and **BatchNorm → Conv**.
+In this project, I investigate the trade-off between **compilation time** and **execution time** in compiler backends such as **PyTorch 2 / TorchInductor** and **XLA**. The work studies how different operator fusion strategies affect performance, especially in common deep learning kernels such as **BatchNorm + ReLU** and **BatchNorm → Conv**.
 
-The project formalizes the trade-off between compilation time and execution time using the following model:
+As part of the project, I developed a benchmark/tool that helps identify which backend is more suitable depending on the execution scenario, considering both time-to-first-batch and repeated execution regimes.
 
-<p align="center">
-  <strong>T(n) = T<sub>C</sub> + nT<sub>X</sub></strong>
-</p>
-
-where:
-
-- <strong>T<sub>C</sub></strong> is the compilation time;
-- <strong>T<sub>X</sub></strong> is the per-execution latency;
-- <strong>n</strong> is the number of executions.
-
-The goal is to make explicit when each backend is preferable depending on the usage regime. The project also includes an empirical analysis of **time-to-first-batch** behavior, proposes an alternative optimization sequence, and provides a real-world benchmark/tool to indicate the best backend according to the execution scenario.
-
-This work is currently in the publication process for the **SBLP conference**.
+This work is currently in the publication process for the **SBLP conference**.  
+For more details, please refer to the paper.
 
 ### Dragon Book Compiler
 
