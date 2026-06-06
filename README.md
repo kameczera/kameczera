@@ -40,10 +40,6 @@ The project implements a simple programming language and explores concepts such 
 
 A project developed in the Image Processing and Analysis discipline, focused on identifying liver fat through a graphical application using AI techniques, including XGBoost and Inception.
 
-### Greenbox AI
-
-An artificial intelligence project developed from scratch in Python, using PyCUDA to write and execute CUDA code efficiently.
-
 ### PUC Simulator
 
 A multithreading simulator developed in Java, supporting SMT, IMT, and BMT models with scalar and superscalar architectures.  
@@ -51,11 +47,26 @@ The project includes a graphical interface for visualization and analysis.
 
 ### compilers-benchmark
 
-My undergraduate thesis project, focused on operator fusion in modern machine learning compilers.
+My undergraduate thesis project, focused on **operator fusion** in modern machine learning compilers.
 
-Operator fusion trades compilation time for execution efficiency, but this cost is often hidden. In this project, I study how modern compilers such as PyTorch 2/TorchInductor and XLA apply fusion passes, especially in common kernels like BatchNorm + ReLU and BatchNorm → Conv.
+Operator fusion trades compilation time for execution efficiency, but this cost is often hidden. In this project, I study how modern compilers such as **PyTorch 2 / TorchInductor** and **XLA** apply fusion passes, especially in common kernels such as **BatchNorm + ReLU** and **BatchNorm → Conv**.
 
-The project formalizes the trade-off between compilation time and execution time using the model:
+The project formalizes the trade-off between compilation time and execution time using the following model:
 
-```txt
-T(n) = T_C + n T_X
+<p align="center">
+  <strong>T(n) = T<sub>C</sub> + nT<sub>X</sub></strong>
+</p>
+
+where:
+
+- <strong>T<sub>C</sub></strong> is the compilation time;
+- <strong>T<sub>X</sub></strong> is the per-execution latency;
+- <strong>n</strong> is the number of executions.
+
+The goal is to make explicit when each backend is preferable depending on the usage regime. The project also includes an empirical analysis of **time-to-first-batch** behavior, proposes an alternative optimization sequence, and provides a real-world benchmark/tool to indicate the best backend according to the execution scenario.
+
+This work is currently in the publication process for the **SBLP conference**.
+
+### Dragon Book Compiler
+
+A compiler written in **Go** while studying *Compilers: Principles, Techniques, and Tools*, also known as the *Dragon Book*.
